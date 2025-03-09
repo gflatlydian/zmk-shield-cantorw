@@ -1,0 +1,5 @@
+config SHIELD_CANTORW_LEFT
+	def_bool $(shields_list_contains,cantorw_left)
+
+config SHIELD_CANTORW_RIGHT
+	def_bool $(shields_list_contains,cantorw_right)
