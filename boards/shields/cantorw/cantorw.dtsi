@@ -1,4 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "cantorw-layouts.dtsi"
+
+&physical_layout0 {
+	kscan = <&kscan0>;
+	transform = <&default_transform>;
+};
 
 / {
 	chosen {
@@ -50,14 +56,6 @@
 		, <&blackpill 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
 		;
 
-	};
-};
-
-/ {
-	physical_layout0: physical_layout0 {
-		compatible = "zmk,physical-layout";
-		display-name = "Default layout";
-		transform = <&default_transform>;
 	};
 };
 
