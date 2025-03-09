@@ -1,0 +1,11 @@
+file_format: "1"
+id: cantor-w
+name: Cantor-W
+type: shield
+url: https://github.com/diepala/cantor/
+requires: [pillbug]
+features:
+    - keys
+siblings:
+    - cantorw_left
+    - cantorw_right
