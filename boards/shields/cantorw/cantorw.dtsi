@@ -30,30 +30,30 @@
 		wakeup-source;
 
 		input-gpios
-		= <&blackpill 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		= <&pillbug 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
 
-		, <&blackpill 49 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 48 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 41 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 40 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 38 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 49 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 48 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 41 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 40 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 38 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
 
-		, <&blackpill 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
 
-		, <&blackpill 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
-		, <&blackpill 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
+		, <&pillbug 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP )>
 		;
 
 	};
