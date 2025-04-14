@@ -8,3 +8,7 @@ As well as setting up the usual keyboard layout (with symbol, media key and blue
 * ZMK Studio to manipulate the layout
 
 Feel free to fork the repo and use for your own purposes (such as by changing the layouts to your taste).
+
+Cantor keyboard: https://github.com/diepala/cantor
+
+PillBug MCU: https://mechwild.com/product/pillbug/
