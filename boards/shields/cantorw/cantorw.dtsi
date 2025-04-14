@@ -57,5 +57,17 @@
 		;
 
 	};
+
+	wakeup_scan: wakeup_scan {
+		compatible = "zmk,gpio-key-wakeup-trigger";
+		wakeup-source;
+		trigger = <&blackpill 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP>;
+	};
+
+	soft_off_wakers {
+		compatible = "zmk,soft-off-wakeup-sources";
+		wakeup-sources = <&wakeup_scan>;
+	};
+
 };
 
