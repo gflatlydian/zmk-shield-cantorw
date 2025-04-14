@@ -9,11 +9,11 @@
 
 / {
 behaviors {
-        td0: tap_dance_mod_tap {
+        td0: td_GUI_SPACE {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp SPACE>, <&kp GUI>;
+            bindings = <&kp SPACE>, <&kp LGUI>;
         };
     };
 
@@ -58,9 +58,9 @@ behaviors {
 		
 			display-name = "Navigation and Media";
 			
-				// Esc	F1	F2	F3	F4	nop		Y	U	I	O	P	Bs
-				// Tab	F5	F6	F7	F8	nop		H	J	K	L	;	"
-				// LS	F9	F10	F11	F12	nop		N	M	,	.	/	Ent
+				// Esc	F1	F2	F3	F4	nop		HM	PU	PD	ED	Vol+ Del
+				// Tab	F5	F6	F7	F8	nop		L	C	U	R	Vol- nop
+				// LS	F9	F10	F11	F12	nop		Pr	>	Nx	nop	Mut	nop
 				//				Alt	Ctl	Sp		L3	nop	 Del
 
 			bindings = <
@@ -77,7 +77,7 @@ behaviors {
 			
 				// OFF			BT1	BT2	BT3	BT4	BT5		nop	nop	nop	nop	nop	BT_CLR
 				// Tog output	nop	nop	nop	nop	nop		nop	nop	nop	nop	nop	nop
-				// nop			nop	nop	nop	nop	nop		nop	nop	nop	nop	nop	nop
+				// nop			nop	nop	nop	nop	std		std	nop	nop	nop	nop	nop
 				//						nop	nop	nop		nop	nop	nop
 
 			bindings = <
