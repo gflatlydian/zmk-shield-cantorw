@@ -58,10 +58,18 @@
 
 	};
 
+	keys {
+		compatible = "gpio-keys";
+		soft_off_gpio_key: soft_off_gpio_key {
+			gpios = <&blackpill 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		};
+	};
+
 	wakeup_scan: wakeup_scan {
 		compatible = "zmk,gpio-key-wakeup-trigger";
 		wakeup-source;
-		trigger = <&blackpill 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		trigger = <&soft_off_gpio_key>;
+		extra-gpios = <&blackpill 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 	};
 
 	soft_off_wakers {
