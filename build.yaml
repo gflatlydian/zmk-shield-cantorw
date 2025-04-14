@@ -21,5 +21,7 @@
 include:
   - board: pillbug
     shield: cantorw_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: pillbug
     shield: cantorw_right
