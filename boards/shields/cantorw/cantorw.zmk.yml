@@ -6,6 +6,7 @@ url: https://github.com/diepala/cantor/
 requires: [pillbug]
 features:
     - keys
+    - studio
 siblings:
     - cantorw_left
     - cantorw_right
